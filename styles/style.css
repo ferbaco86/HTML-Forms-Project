@@ -1,0 +1,29 @@
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.have-account {
+    display: block;
+
+}
+
+/* Main sign up section */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homepage-other-sites {
+    text-align: center;
+    
+
+}
+
+.other-title {
+    display: inline;
+
+}
