@@ -1,9 +1,9 @@
 body {
-  background-color: #03e2ff;
+  background-color: #eceef1;
 }
 
 * {
-  font-family: 'Sriracha', cursive;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /****** Header Section ******/
@@ -22,15 +22,14 @@ body {
 }
 
 .sign-in-btn {
-  height: 30px;
+  height: 35px;
+  width: 100px;
   border-radius: 5px;
-  background-color: white;
-  border: 1px solid black;
+  margin-right: 20px;
+  background-color: #0077c5;
   cursor: pointer;
-}
-
-.sign-in-btn:hover {
-  background-color: #09ff47;
+  color: white;
+  font-size: small;
 }
 
 /***** Main sign up section *****/
@@ -45,12 +44,8 @@ body {
   text-align: center;
   margin-bottom: 10px;
   padding-top: 20px;
-  background-color: #08e8a2;
   border-radius: 5px;
   width: 400px;
-  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
 }
 
 .other-sites {
@@ -70,8 +65,13 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.homepage-title {
-  display: inline;
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.intuit-logo {
+  width: 120px;
 }
 
 .other-title {
@@ -85,22 +85,27 @@ body {
 
 .form-description {
   margin-bottom: 0;
+  margin-top: 0;
+  font-size: small;
 }
 
 .more {
   margin-bottom: 10px;
+  font-size: small;
+}
+
+.signup-form {
+  color: rgb(80, 79, 79);
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  background-color: #09ff47;
-  border-radius: 5px;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #c1c5c8;
   width: 400px;
   align-items: center;
-  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
 }
 
 @media only screen and (max-width: 420px) {
@@ -114,35 +119,21 @@ body {
   }
 }
 
-.fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 10px;
-  border-radius: 5px;
-  border: none;
-  width: 80%;
-  background-color: #08e8a2;
-  align-items: center;
-  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
-}
-
 .legend {
   font-size: x-large;
 }
 
 .labels {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 4px;
-  text-align: center;
+  margin-left: 10%;
+  align-self: flex-start;
 }
 
 .input {
-  width: 100%;
-  height: 25px;
-  border: 1px solid black;
+  width: 80%;
+  height: 34px;
+  border: 1px solid #c1c5c8;
   border-radius: 5px;
 }
 
@@ -150,27 +141,33 @@ body {
   padding: 20px;
   text-align: center;
   display: block;
+  font-style: italic;
 }
 
 .btn {
-  margin: 15px auto 5px auto;
-  border: 1px solid black;
+  margin: 25px auto 5px auto;
   border-radius: 5px;
-  height: 30px;
-  background-color: white;
+  height: 50px;
+  width: 80%;
+  background-color: #0077c5;
+  color: white;
   cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #09ff47;
+  font-size: large;
 }
 
 /****** footer section *****/
 
 .footer {
   text-align: center;
-  font-size: small;
+  font-size: smaller;
   margin-top: 30px;
+  color: rgb(80, 79, 79);
+}
+
+.legal-privacy-security-links a {
+  margin: 10px 10px 0 10px;
+  color: rgb(80, 79, 79);
+  text-decoration: none;
 }
 
 .copyright-line-1 {
