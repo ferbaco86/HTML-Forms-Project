@@ -15,10 +15,10 @@
 <header class="header">
     <div class= "forgot-pass">
         <small class="have-account">Already have an Intuit account?</small>
-        <a class="have-account" href="https://accounts.intuit.com/signup.html" target="_blank">I forgot my User ID or Password</a>
+        <small><a class="have-account" href="https://accounts.intuit.com/signup.html" target="_blank">I forgot my User ID or Password</a></small>
     </div>
     <div class="sign-in-btn-container">
-        <a href="https://accounts.intuit.com/signup.html" target="_blank"><button class="sign-in-btn">Sign in</button></a>
+        <a href="https://accounts.intuit.com/signup.html" target="_blank"><button class="sign-in-btn"><i class="fas fa-sign-in-alt"></i>&nbsp;Sign in</button></a>
 
     </div>
 
@@ -27,8 +27,12 @@
     <section class="homepage-other-sites">
         <a class ="homepage" href="#"><h2 class="homepage-title">INTUIT</h2></a>
         <div class="other-sites">
+            
+            <img class="logos" src="images/mint.png" alt="mint logo">
             <a class ="other-link" href="#"><h4 class="other-title">mint</h4></a>
+            <img class="logos" src="images/quickbooks.png" alt="quickbook logo">
             <a class ="other-link" href="#"><h4 class="other-title">quickbook</h4></a>
+            <img class="logos" src="images/turbotax.png" alt="turbotax logo">
             <a class ="other-link" href="#"><h4 class="other-title">turbotax</h4></a>
             
         </div>
@@ -40,32 +44,43 @@
            <p class="form-description">One account for everything Intuit, including Mint.</p>
            <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank">learn more</a> 
             <fieldset class="fieldset">
-                <label for="email">Email address</label>
+                <label class="labels" for="email">Email address</label>
                 <input type="email" class="input" name="email" id="email" placeholder="insert your email address ..."/>
-                <label for="phone">Phone number</label>
+                <label class="labels" for="phone">Phone number</label>
                 <input type="tel" class="input" name="phone" id="phone" placeholder="insert your phone number ..."/>
-                <label for="password">Password</label>
+                <label class="labels" for="password">Password</label>
                 <input type="password" class="input" name="password" id="password" />
         
-                <button id="submit" class="input">
+                <button id="submit" class="btn">
                     <i class="fas fa-unlock-alt"></i>
                     Create account
                 </button>
             </fieldset>
-            <small>
-                <em>
-                    By clicking Create account, you agree to our
-                    <a href="https://www.mint.com/terms">Terms</a> 
-                    and have read and acknowledge our
-                    <a href="https://www.intuit.com/privacy/">Privacy Statement.</a>
-                </em>
-            </small>
+            <div class="disclaimer">
+                <small> 
+                    <em>
+                        By clicking Create account, you agree to our
+                        <a href="https://www.mint.com/terms">Terms</a> 
+                        and have read and acknowledge our
+                        <a href="https://www.intuit.com/privacy/">Privacy Statement.</a>
+                    </em>
+                </small>
+            </div>
         </form>
 
     </section>
 
 </main>
-<footer>
+<footer class="footer">
+    <div class="legal-privacy-security-links">
+        <a href="http://about.intuit.com/legal/" target="_blank">Legal</a>
+        <a href="https://security.intuit.com/privacy/" target="_blank">Privacy</a>
+        <a href="http://security.intuit.com/" target="_blank">Security</a>
+    </div>
+    <p class="copyright-line-1">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, 
+        ProConnect and Mint are registered trademarks of Intuit Inc. </p>
+    <p class="copyright-line-2">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    
 
 </footer>
 </body>
