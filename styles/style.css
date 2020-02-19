@@ -1,0 +1,179 @@
+body {
+  background-color: #eceef1;
+}
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/****** Header Section ******/
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.have-account {
+  display: block;
+}
+
+.forgot-pass {
+  margin-right: 10px;
+}
+
+.sign-in-btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #0077c5;
+  cursor: pointer;
+  color: white;
+  font-size: small;
+}
+
+/***** Main sign up section *****/
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage-other-sites {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.other-sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.other-sites h4 {
+  color: rgb(0, 0, 0);
+}
+
+.other-link,
+.homepage {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.intuit-logo {
+  width: 120px;
+}
+
+.other-title {
+  display: inline;
+}
+
+.logos {
+  width: 20px;
+  margin: 5px;
+}
+
+.form-description {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: small;
+}
+
+.more {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.signup-form {
+  color: rgb(80, 79, 79);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #c1c5c8;
+  width: 400px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 420px) {
+  .homepage-other-sites,
+  .form {
+    width: 100%;
+  }
+
+  .other-sites {
+    flex-direction: column;
+  }
+}
+
+.legend {
+  font-size: x-large;
+}
+
+.labels {
+  margin-top: 30px;
+  margin-bottom: 4px;
+  margin-left: 10%;
+  align-self: flex-start;
+}
+
+.input {
+  width: 80%;
+  height: 34px;
+  border: 1px solid #c1c5c8;
+  border-radius: 5px;
+}
+
+.disclaimer {
+  padding: 20px;
+  text-align: center;
+  display: block;
+  font-style: italic;
+}
+
+.btn {
+  margin: 25px auto 5px auto;
+  border-radius: 5px;
+  height: 50px;
+  width: 80%;
+  background-color: #0077c5;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+}
+
+/****** footer section *****/
+
+.footer {
+  text-align: center;
+  font-size: smaller;
+  margin-top: 30px;
+  color: rgb(80, 79, 79);
+}
+
+.legal-privacy-security-links a {
+  margin: 10px 10px 0 10px;
+  color: rgb(80, 79, 79);
+  text-decoration: none;
+}
+
+.copyright-line-1 {
+  margin-bottom: 0;
+}
+
+.copyright-line-2 {
+  margin-top: 0;
+}
