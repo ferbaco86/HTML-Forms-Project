@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Sriracha&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet"> 
 </head>
 <body>
 <header class="header">
@@ -18,14 +18,17 @@
         <small><a class="have-account" href="https://accounts.intuit.com/signup.html" target="_blank">I forgot my User ID or Password</a></small>
     </div>
     <div class="sign-in-btn-container">
-        <a href="https://accounts.intuit.com/signup.html" target="_blank"><button class="sign-in-btn"><i class="fas fa-sign-in-alt"></i>&nbsp;Sign in</button></a>
+        <form action="https://accounts.intuit.com/signup.html">
+            <button class="sign-in-btn"><i class="fas fa-sign-in-alt"></i>&nbsp;Sign in</button>
+        </form>
 
     </div>
 
 </header>
 <main class="main-container">
     <section class="homepage-other-sites">
-        <a class ="homepage" href="#"><h2 class="homepage-title">INTUIT</h2></a>
+        <a class ="homepage" href="#">
+            <h2 class="homepage-title">INTUIT</h2></a>
         <div class="other-sites">
             
             <img class="logos" src="images/mint.png" alt="mint logo">
