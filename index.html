@@ -8,8 +8,8 @@
   <meta name="author" content="HADDAD SOHAIB, FERNANDO BAHAMONDES">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
- <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">  
 </head>
 <body>
 <header class="header">
@@ -35,10 +35,31 @@
 
     </section>
     <section class="signup-form">
+        <form class="form" action="#" method="POST">
+           <h2 class="form-title">Create an Intuit account</h2>
+           <p class="form-description">One account for everything Intuit, including Mint.</p>
+           <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank">learn more</a> 
+            <fieldset class="fieldset">
+                <label for="email">Email address</label>
+                <input type="email" class="input" name="email" id="email" placeholder="insert your email address ..."/>
+                <label for="phone">Phone number</label>
+                <input type="tel" class="input" name="phone" id="phone" placeholder="insert your phone number ..."/>
+                <label for="password">Password</label>
+                <input type="password" class="input" name="password" id="password" />
         
-        <form action="#" method="POST">
-            
-
+                <button id="submit" class="input">
+                    <i class="fas fa-unlock-alt"></i>
+                    Create account
+                </button>
+            </fieldset>
+            <small>
+                <em>
+                    By clicking Create account, you agree to our
+                    <a href="https://www.mint.com/terms">Terms</a> 
+                    and have read and acknowledge our
+                    <a href="https://www.intuit.com/privacy/">Privacy Statement.</a>
+                </em>
+            </small>
         </form>
 
     </section>

@@ -25,5 +25,18 @@
 
 .other-title {
     display: inline;
+}
 
+.form {
+    text-align: center;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
 }
