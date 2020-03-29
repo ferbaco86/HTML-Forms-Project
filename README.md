@@ -1,16 +1,21 @@
 # HTML FORMS PROJECT - SIGN UP FORM
 
-A basic sign up form styled with CSS3
+A basic sign up form cloned from the Mint.com website, created with HTML and styled with CSS3.
 
 
 ## Built With
 
-- HTML,
-- CSS.
+- HTML
+- CSS
+
+## Screenshot
+
+![Screenshot](https://user-images.githubusercontent.com/52765379/77840850-f5edf300-7161-11ea-8940-7ff1a1685689.png)
+
 
 ## Live Demo
 
-N/A
+https://mint-signup-form-clone.netlify.com/
 
 ## Authors
 
@@ -24,7 +29,7 @@ N/A
 
 - Github: [@ferbaco86](https://github.com/ferbaco86)
 - Twitter: [@ferbac0](https://twitter.com/ferbac0)
-- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa-9632051a2/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa/)
 
 ## 🤝 Contributing
 
